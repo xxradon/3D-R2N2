@@ -69,6 +69,9 @@ cp .theanorc ~/.theanorc
 - Install meshlab (skip if you have another mesh viewer). If you skip this step, demo code will not visualize the final prediction.
 
 ```
+PPA 安装，打开终端，输入以下命令：
+sudo add-apt-repository ppa:zarquon42/meshlab
+sudo apt-get update
 sudo apt-get install meshlab
 ```
 
